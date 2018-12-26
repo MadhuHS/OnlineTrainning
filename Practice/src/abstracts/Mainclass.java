@@ -6,7 +6,7 @@ abstract class Account
 	
 	abstract public void withdraw();
 	
-	public void test()
+	public void createAccount()
 	{
 		System.out.println("test() of Account");
 	}
@@ -37,7 +37,7 @@ public class Mainclass
 		Account a1;
 		Savings s1 = new Savings();
 		s1.withdraw();
-		s1.test();
+		s1.createAccount();
 		System.out.println(s1.x1);
 		
 	}

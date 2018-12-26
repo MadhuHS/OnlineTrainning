@@ -14,3 +14,34 @@ Abstract ?
 * we can access prop. of Abstract class by creating object of its subclass
 * within an abstract class we can write both abtract and concrete methods.
   
+Post  
+ like()
+ comment()
+ share()
+      --> Pic   
+      --> Video
+      --> Status
+---------------------------------------------------_
+Interfaces
+ 
+ * It is a type of class where methods are by default abstract
+   and variables are by default static and final.     
+ * We can't create objects for Interfaces.
+ * A class can only implements an interface 
+ * class should override all abstract methods of super Interface or else
+   the class should be declared as abstract     
+ * An interface can only extends an interface   
+ * A class can extends only one class 
+    and implements any number of interface  
+      
+      
+      
+      
+      
+      
+  
+  
+  
+  
+  
+  
