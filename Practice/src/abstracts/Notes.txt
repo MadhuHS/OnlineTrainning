@@ -1,0 +1,16 @@
+Abstract ?
+--> Incomplete
+
+* method having only decleration and no defn is called as Abstract method,
+* abstract methods should be declared with abstract keyword
+* A class with at least one abstract method is called as abstract class
+* class should override all abstract methods of superclass or else
+  the class should be declared as abstract
+* We can't create objects for abstract classes.
+* abstract method can't be declared as 
+  1.static
+  2.final
+  3.private
+* we can access prop. of Abstract class by creating object of its subclass
+* within an abstract class we can write both abtract and concrete methods.
+  

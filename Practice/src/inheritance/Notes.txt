@@ -1,0 +1,4 @@
+
+Super Keyword is used to access super class prop. from subclass methods.
+
+Super keyword always points to immediate superclass object
