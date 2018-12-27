@@ -12,7 +12,7 @@ Abstract ?
   2.final
   3.private
 * we can access prop. of Abstract class by creating object of its subclass
-* within an abstract class we can write both abtract and concrete methods.
+* within an abstract class we can write both abstract and concrete methods.
   
 Post  
  like()
@@ -34,11 +34,7 @@ Interfaces
  * A class can extends only one class 
     and implements any number of interface  
       
-      
-      
-      
-      
-      
+  
   
   
   

@@ -1,0 +1,54 @@
+Type-casting -> converting one type to another type
+
+# Primitive casting --> Widening -->Convt lower data type value to higher datatype value
+                    --> Narrowing-->Convt higher data type value to lower datatype value
+# Derived casting 
+
+byte   8bits
+short  16bits
+char   16bits
+int    32bits
+long   64bits
+float  32bits
+double 64bits
+
+# boolean type can't be typecasted.
+
+# Derived casting -> converting reference of on class type to another class type
+
+* Inheritance is mandatory for DERIVED CASTING
+
+Up-casting --> converting subclass refr. 
+                 to superclass refr.
+
+*Upcasting is done by storing addrs. of subclass object 
+           in superclass refr. var
+* Any Superclass ref.Variable pointing object 
+  of Subclass is called as upcasted refr.
+
+* using upcasted refr. u can access only superclass prop.
+
+Down-casting
+* converting the upcasted ref. back to subclass refr.
+* it should be done by prog. by writting casting stmt.
+
+----***USING UPCASTED REFR. IF WE CALL AN OVERRIDEN METHOD THEN WE ALWAYS
+GET THE OVRRIDEN IMPL. OF SUBCLASS***----
+
+Derived casting can be done 
+        using CONCRETE CLASSES,ABSTRACT CLASSES and INTERFACES
+
+
+makePayment --> CARD
+
+Assignment: 4 Programs
+1. Primitive casting using byte/long
+2. Derived casting using hiericy inheritance
+3. Interface using any inheritance
+4. Abstract class
+
+
+
+
+
+
