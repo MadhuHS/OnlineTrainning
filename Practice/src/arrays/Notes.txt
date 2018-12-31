@@ -1,0 +1,3 @@
+syntax :
+         datatype[] arrayName = new datatype[size];
+         datatype arrayName[] = new datatype[size];

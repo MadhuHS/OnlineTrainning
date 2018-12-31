@@ -1,2 +1,6 @@
 
 Providing security for data memeb. against invalid values
+
+Providing security for data memb. by declaring them as private
+and then providing access through getters and setters method is
+called encapsulation.
