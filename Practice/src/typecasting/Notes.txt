@@ -18,7 +18,7 @@ double 64bits
 
 * Inheritance is mandatory for DERIVED CASTING
 
-Up-casting --> converting subclass refr. 
+Up-casting -->  converting subclass refr. 
                  to superclass refr.
 
 *Upcasting is done by storing addrs. of subclass object 

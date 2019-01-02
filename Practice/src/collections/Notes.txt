@@ -1,0 +1,11 @@
+
+Growable in nature
+Suppourt hetrogeneous data
+
+
+1. Duplicates
+2. Null values
+3. Index
+4. Insertion order
+
+Vector --> Thread Safe
