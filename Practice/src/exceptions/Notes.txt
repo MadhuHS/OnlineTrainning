@@ -1,0 +1,11 @@
+Exception ->An unexpected event that occurs at Runtime due to 
+            unexpected operation performed by a line of code
+            
+            try
+            {
+              risky lines of code
+            }
+            catch(Exception)
+            {
+              alternate codes
+            }

@@ -19,8 +19,6 @@ public class Mainclass2
     	  	System.out.println("adding marks of "+slist.get(i).name);
 	  }
       avg = sum / slist.size(); 
-      System.out.println(avg);
-      
-      
+      System.out.println(avg);     
 	}
 }

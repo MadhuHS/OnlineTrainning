@@ -9,3 +9,16 @@ Suppourt hetrogeneous data
 4. Insertion order
 
 Vector --> Thread Safe
+
+
+If you use for-each on PQ then u wont get elements in sorted order
+
+i = 0 size = 5  0 < 5 ->> 10
+i = 1 size = 4  1 < 4 ->> 10
+i = 2 size = 3  2 < 3 ->> 20
+i = 3 size = 2  3 < 2 ->>xxxxxx 
+
+
+
+
+
