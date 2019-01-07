@@ -2,33 +2,32 @@ package exceptions;
 
 public class Mainclass 
 {
-	public static void test(int num) 
+	//called method 
+	public static void test(int num) throws InterruptedException
 	{
 		System.out.println("Entering test()");
-		int[] a1 = new int[3];
-		a1[0] = 20;
-		try
-		{
-		  int res = 50 / num;
-		  System.out.println("res = " + res);
-		  System.out.println(a1[num]);
-		}
-		catch(Exception ae)
-		{
-            ae.printStackTrace();
-		}
-		
+
+	    Thread.sleep(1000);
+
 		System.out.println("Exit test()");
 	}
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)//calling method 
 	{
-	   System.out.println("Program starts...");
-	   test(10);
-	   System.out.println("Program ends..");
+		System.out.println("Program starts...");
+		
+		try 
+		{
+			test(0);
+		} 
+		catch (Exception e) 
+		{
+		  e.printStackTrace();
+		}
+		
+		System.out.println("Program ends..");
 	}
 }
-
 
 
 

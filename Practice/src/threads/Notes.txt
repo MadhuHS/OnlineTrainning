@@ -1,0 +1,6 @@
+Threads are independent part of same program which can be executed cocurrently .
+
+Threads are created in two ways
+
+1. Extending thread class
+2. Implementing Runnable interface

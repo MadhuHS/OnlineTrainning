@@ -9,3 +9,24 @@ Exception ->An unexpected event that occurs at Runtime due to
             {
               alternate codes
             }
+
+            * Checked Exceptions //suggest
+            * UnChecked Exceptions
+            
+ * Checked   -> exceptions checked by the complier at compile time.
+ * UnChecked -> exceptions that are not checked by the complier 
+                at compile time.
+ 
+ throws and throw keywords
+ 
+ exception propagation : Passing the exception object from called method
+                         to calling method is known exception propagation.
+ 
+ UnChecked Exceptions will be implicitly propagated by the JVM.
+ 
+ throws keyword : used to propagate checked exceptions from called method
+                  to calling method by the programmer explicitly.
+ 
+ throw keyword : used to throw the exceptions explicitly by the programmer
+                 according to application reqmnt.
+ 
