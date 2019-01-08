@@ -4,3 +4,26 @@ Threads are created in two ways
 
 1. Extending thread class
 2. Implementing Runnable interface
+
+Thread Priority -->  1->low 5->normal 10->highest
+
+
+Multiple thread trying to access same object at the same time
+is called as Race condtn 
+
+Race condtn always leads to data inconsistency
+
+Thread Synchronization
+
+* synchronized methods
+* synchronized blocks
+
+Thread Deadlock -> its a situation where two threads will be waiting
+                   to acquire object lock of each other for infinite
+                   period of time.
+
+
+
+
+
+

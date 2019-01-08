@@ -10,7 +10,8 @@ class TaskOneThread extends Thread
 	}
 }
 
-class TaskTwoThread extends Thread {
+class TaskTwoThread extends Thread
+{
 	@Override
 	public void run() {
 		for (int j = 1; j <= 3; j++) {
