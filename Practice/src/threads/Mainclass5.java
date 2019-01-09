@@ -29,6 +29,17 @@ class TaskOne extends Thread
 		synchronized(r1)
 		{
 		    System.out.println("t1 locked r1");
+		    try 
+		    {
+		    	    System.out.println("t1 going to wait state");
+				r1.wait(3000);
+	    	        System.out.println("t1 coming back from wait state");
+	    	        
+			} 
+		    catch (InterruptedException e) 
+		    {
+				e.printStackTrace();
+			}
 			synchronized (r2)
 			{
 				System.out.println("t1 locked r2");
@@ -61,6 +72,7 @@ class TaskTwo extends Thread
 			synchronized (r1)
 			{
 				System.out.println("t2 locked r1");
+			    r1.notify();
 			}
 		}
 		

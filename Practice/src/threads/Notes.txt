@@ -21,9 +21,14 @@ Thread Synchronization
 Thread Deadlock -> its a situation where two threads will be waiting
                    to acquire object lock of each other for infinite
                    period of time.
+                   
+Inter Thread Communication(ITC)
 
-
-
-
+sleep()  : it will pause the thread execution and do not release object lock.
+wait()   : it will pause the thread execution and also release object lock.
+notify() : it will communicate its termination status to other thread
+           which is in wait state.
+notifyAll() : it will communicate its termination status to all the
+              other threads which are in wait state.
 
 
