@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/curvesapi-1.05.jar"/>
+	<classpathentry kind="lib" path="libs/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/poi-examples-4.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/poi-excelant-4.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/poi-scratchpad-4.0.1.jar"/>
+	<classpathentry kind="lib" path="libs/xmlbeans-3.0.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
