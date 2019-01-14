@@ -1,0 +1,10 @@
+Steps for connecting to DB
+
+Step 1 : register jdbc driver
+Step 2 : get db connection using DriverManager
+Step 3 : execute sql query using Statement Object
+Step 4 : process resultset by extracting data
+Step 5 : close connections of all resources
+
+ALTER USER '<dbusername>'@'localhost' 
+IDENTIFIED WITH mysql_native_password BY '<password>'
