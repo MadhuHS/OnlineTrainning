@@ -1,0 +1,1 @@
+Model -> a java object intialized with data.
