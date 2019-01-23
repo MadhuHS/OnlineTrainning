@@ -7,6 +7,7 @@ import org.hibernate.cfg.Configuration;
 
 import models.Address;
 import models.User;
+import models.Vehicle;
 
 
 public class DBService
@@ -47,6 +48,14 @@ public class DBService
 	   tx.begin();
 	   s1.save(addrs);
 	   System.out.println("Address added");
+	   tx.commit();
+	}
+	
+	public void addVehicle(Vehicle vehicle)
+	{
+	   tx.begin();
+	   s1.save(vehicle);
+	   System.out.println("vehicle added");
 	   tx.commit();
 	}
 	

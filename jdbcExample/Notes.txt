@@ -6,5 +6,3 @@ Step 3 : execute sql query using Statement Object
 Step 4 : process resultset by extracting data
 Step 5 : close connections of all resources
 
-ALTER USER '<dbusername>'@'localhost' 
-IDENTIFIED WITH mysql_native_password BY '<password>'
