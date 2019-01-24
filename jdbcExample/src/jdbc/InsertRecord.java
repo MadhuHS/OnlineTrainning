@@ -2,7 +2,6 @@ package jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -21,7 +20,7 @@ public class InsertRecord {
 			//step3
 			stm = con.createStatement();
             
-			int upcount = stm.executeUpdate("insert into userdb.user values (3,'user3','u3@email',76543212)");
+			int upcount = stm.executeUpdate("insert into userdb.user values (2,'user2',67568912,'u2@email')");
             System.out.println(upcount+" record(s) added");
 
 		} catch (SQLException e) {
