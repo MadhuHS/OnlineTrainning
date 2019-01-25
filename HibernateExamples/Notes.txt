@@ -1,0 +1,28 @@
+Hibernate is an ORM tool
+
+Object Relation Mapping
+
+Problems solved by Hibernate
+
+* Mapping data members of Object to columns.
+* Mapping relations in Objects
+* Handling data types of Data members 
+* Managing changes in objects
+
+
+Env. Setup
+* jdbc jars.
+* hibernate jars. >hibernate-release-5.4.0.Final⁩ ▸ ⁨lib⁩ ▸ required
+                   hibernate-release-5.4.0.Final⁩ ▸ ⁨lib⁩ ▸ jpa-metamodel-generator
+
+
+add jars from following folders
+*jpa-metamodel-generator
+*required
+
+within src folder create an xml file with name hibernate.cfg.xml
+
+sessionFactory is same as DriverManager
+session is same as connection object of jdbc
+
+
